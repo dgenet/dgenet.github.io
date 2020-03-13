@@ -3,8 +3,12 @@
         "{fd9a017a-bd74-4c1d-b43e-cc273afa0354}": {
             "updates": [
                 {
-                              "version": "2020.3.13.1",
-                                        "update_link": "https://dgenet.github.io/extensions/firefox/quest_helper-2020.3.13.1.xpi"
+                    "version": "2020.3.13.1",
+                    "update_link": "https://dgenet.github.io/extensions/firefox/quest_helper-2020.3.13.1.xpi"
+                },
+                {
+                    "version": "2020.3.13.2",
+                    "update_link": "https://dgenet.github.io/extensions/firefox/quest_helper-2020.3.13.2.xpi"
                 }
             ]
         }
