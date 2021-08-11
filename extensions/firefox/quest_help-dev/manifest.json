@@ -1,0 +1,30 @@
+{
+   "browser_action": {
+      "default_icon": "icons/38x38.png",
+      "default_popup": "",
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "scripts/jquery.min.js", "scripts/background.min.js" ],
+      "matches": [ "http://www.pirates-caraibes.com/*", "http://pirates-caraibes.com/*", "http://beta.pirates-caraibes.com/*", "https://beta.pirates-caraibes.com/*", "https://www.pirates-caraibes.com/*", "https://pirates-caraibes.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "web_accessible_resources": [
+           "data/quests-2.0.json", "manifest.json"
+   ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "fr",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/128x128.png",
+      "16": "icons/16x16.png",
+      "38": "icons/38x38.png",
+      "48": "icons/48x48.png",
+      "64": "icons/64x64.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_title__",
+   "permissions": [ "contextMenus", "tabs", "storage" ],
+   "version": "2021.5.18.1"
+}
